@@ -1,0 +1,25 @@
+{
+  "name": "fsm-laboratorio-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:1": "jest tests/grading1.test.js",
+    "test:2": "jest tests/grading2.test.js",
+    "test:3": "jest tests/grading3.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/booleancl/fsm-prueba-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/booleancl/fsm-prueba-javascript/issues"
+  },
+  "homepage": "https://github.com/booleancl/fsm-prueba-javascript#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
