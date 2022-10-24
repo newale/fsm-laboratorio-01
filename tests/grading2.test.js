@@ -1,7 +1,7 @@
 const mainFile = require('../src/main')
 
 const {
-  add
+  filteredNumbers
 } = mainFile
 
 test('Quitar numeros multiplos de 5', () => {
