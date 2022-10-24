@@ -4,10 +4,9 @@ const {
   tripledNumbers
 } = mainFile
 
-[2,4,6,7]
-test('Crear arreglo con 5 valores numeros', () => {
+test('Crear nuevo arreglo, elementos multiplicados por 3', () => {
   expect(tripledNumbers[0]).toBe(6)
-  expect(tripledNumbers[0]).toBe(12)
-  expect(tripledNumbers[0]).toBe(18)
-  expect(tripledNumbers[0]).toBe(21)
+  expect(tripledNumbers[1]).toBe(12)
+  expect(tripledNumbers[2]).toBe(18)
+  expect(tripledNumbers[3]).toBe(21)
 })
